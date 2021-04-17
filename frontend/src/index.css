@@ -1,0 +1,17 @@
+main{
+    min-height: 80vh;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: gray !important;
+}
+
+.nav-link:hover{
+    color: #fff !important;
+}
