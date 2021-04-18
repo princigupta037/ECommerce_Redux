@@ -15,3 +15,12 @@ main{
 .nav-link:hover{
     color: #fff !important;
 }
+
+h3 {
+    margin:1rem 0;
+}
+
+.rating span {
+    margin:0.1rem;  
+}
+

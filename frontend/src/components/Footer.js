@@ -9,7 +9,7 @@ const Footer = () => {
                     Copyright &copy; Proshop
               </Col>
           </Row>
-          footer
+          
         </Container>
     </footer>
   );
