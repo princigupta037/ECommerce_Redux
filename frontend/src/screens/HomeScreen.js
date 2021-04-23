@@ -3,11 +3,8 @@ import Product from '../components/Products'
 import { Row ,Col } from 'react-bootstrap'
 import axios from 'axios'
 
-
 const HomeScreen = () => {
-
-    const [ products , setProducts ] = useState([])
-
+    const [ products , setProducts ] = useState([]) 
     useEffect(()=>{
         const fetchProducts = async () => {
             const { data } = await axios.get('/api/products')
@@ -15,7 +12,6 @@ const HomeScreen = () => {
         }
         fetchProducts()
     },[])
- 
     
     return (
         <div>
